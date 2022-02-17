@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socket</title>
+</head>
+<body>
+    <h3>Login</h3>
+    <form action="">
+        <input type="email" name="" id="email" placeholder="email">
+        <input type="text" placeholder="usuario" id="user">
+        <input type="button" value="entrar" onclick="logear()">
+    </form>
+    <br>
+    <hr>
+    <br><br>
+    <h2>Chat</h2>
+    <br><br>
+    <div id="content_mensajes">
+
+    </div>
+    <div style="display: flex; justify-content: flex-start; align-items: center; ">
+        <textarea name="" id="mensaje" placeholder="mensaje" style="width : 500px;"></textarea>
+        <button type=""  id="enviar_mensaje" onclick="enviar_msj()" style="height: 30px;width: 90px; background:blue ; color: white;">Enviar</button>
+
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        
+    </script>
+    <script src="function_sockets.js"></script>
+</body>
+</html>
